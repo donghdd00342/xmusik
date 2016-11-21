@@ -92,7 +92,7 @@ function send() {
 	    "authorEmail": $("#email").val(),
 	    "birthday": $("#birthday").val(),
 	    };
-        var url = "http://youtube-video-api-1608.appspot.com/youtube/api";
+        var url = "https://youtube-video-api-1608.appspot.com/youtube/api";
         $.ajax({
                 url: url,
                 data: JSON.stringify(youtubeVideo),

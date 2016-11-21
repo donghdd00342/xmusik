@@ -132,7 +132,7 @@ function playList(listData) {
     }else{
 		chosen = listData;
 	}
-	xmlData = "http://mp3.zing.vn/xml/album-xml/" + listData;
+	xmlData = "https://mp3.zing.vn/xml/album-xml/" + listData;
     html = "";    
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
@@ -232,10 +232,10 @@ function updateLyric(j) {
     // FIX CORS
     if(xhr)
     {
-        xhr.open('GET', 'http://donghd.16mb.com/fix.php?url='+v_urlLyric, true);
+        xhr.open('GET', 'https://donghd.16mb.com/fix.php?url='+v_urlLyric, true);
     } else return;
     
-    // xhr.open('GET', 'http://donghd.16mb.com/fix.php?url='+v_urlLyric, false);
+    // xhr.open('GET', 'https://donghd.16mb.com/fix.php?url='+v_urlLyric, false);
     xhr.onreadystatechange = function () {
         if (xhr.readyState===4 && xhr.status===200) {
 			//////////////////////////////////////////////////////////
