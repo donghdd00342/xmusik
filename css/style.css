@@ -1,0 +1,158 @@
+/********************************** MUSIC / COMMON / GLOBAL ******************************************/
+#abcxyz {
+	background: url('../images/555.jpg') bottom right / cover;
+	-webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+}
+.donghdd00342-layout-transparent .mdl-layout__header,
+.donghdd00342-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. //color: rgba(0,0,0,0.87);//color: white;//*/
+  color: rgba(0,0,0,0.87);  
+}
+.myTable {
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+    white-space: nowrap;
+    font-size: 13px;
+    text-align: left;
+}
+.myTable td {    
+    height: 48px;
+    border-bottom: 1px solid rgba(0,0,0,.08);
+    padding: 12px 28px;
+    box-sizing: border-box;
+}
+.myTable tr:hover {
+    background-color: rgba(0,0,0,.06);
+    box-shadow: 10px 10px 15px rgba(0,0,0,.03);
+    cursor: pointer;
+}
+#cover {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,.36);
+}
+audio {
+	opacity:0.3;
+}
+#myInput {
+  background-color: rgba(255,255,255,.03);
+  background-image: url('../images/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 90%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: #ddd;
+  margin-top: 12px;
+}
+/********************************** VIDEO ******************************************/
+.mdl-js-menu {
+    min-width: 175px;
+}
+/*Assignment*/
+.btn-control {
+    display: inline-block;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 14px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: #ddd;
+    opacity: 0.86;
+}
+.btn-control:hover {
+    background-color: rgba(0,0,0,.03);
+    cursor: pointer;
+}
+.btn-previous {
+    float: left;
+    width: 49%;
+}
+.btn-next {
+    float: right;
+    width: 49%;
+}
+/*MODAL*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-video {
+    padding: 20px;
+    margin: auto;
+    max-width: 660px;
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*******************************************Custom RPS**********************************************************/
+@media only screen and (max-width: 854px) {
+#abcxyz {
+    background: none !important;
+}
+#showLyric {
+	display: none !important;
+}
+}
+/******************************************* UPDATE LYRIC **********************************************************/
+#showLyric p {
+	display: none;
+}
+p.aplayer-lrc-current {
+    display: block !important;
+	padding: 20px;
+	color: white;
+	font-size: 26px;
+	text-shadow: 
+	0 1px 0 #ccc,
+	0 2px 0 #c9c9c9,
+	0 3px 0 #bbb,
+	0 4px 0 #b9b9b9,
+	0 5px 0 #aaa,
+	0 6px 1px rgba(0, 0, 0, 0),
+	0 0 15px rgba(0, 0, 0, 0.863),
+	0 1px 13px rgba(0,0,0,.33),
+	0 3px 15px rgba(0,0,0,.32),
+	0 5px 10px rgba(0,0,0,.35),
+	0 10px 10px rgba(0,0,0,.632),
+	0 20px 20px rgba(0, 0, 0, 0);
+}
+/******************************************* UPDATE LOADING **********************************************************/
+.loading {
+	display: none;
+}

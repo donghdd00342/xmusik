@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MUSIC</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/material.blue-pink.min.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="loading">
+            <img src="images/444.jpg">
+            <img src="images/666.jpg">        
+        </div>
+        <div class="donghdd00342-layout-transparent mdl-layout mdl-js-layout" id="abcxyz">
+        <header class="mdl-layout__header mdl-layout__header--transparent">
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">MENU</span>
+            <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="javascript:location.reload();" title="Home"><i class="material-icons">&#xE88A;</i> Home</a>
+            <a class="mdl-navigation__link" href="music.html" title="Đi tới trang MUSIC"><i class="material-icons">&#xE063;</i> Music</a>
+            <a class="mdl-navigation__link" href="video.html" title="Đi tới trang VIDEO"><i class="material-icons">&#xE04A;</i> Video</a>
+            <a class="mdl-navigation__link" href="javascript:alert('Dongh/0979.586.328/donghdd00342@fpt.edu.vn');" title="About"><i class="material-icons">&#xE851;</i> About</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
+            <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+            <div class="mdl-tabs__tab-bar">
+                <a href="#showList" class="mdl-tabs__tab" id="cataloge-menu-lower-left">Chủ Đề</a>
+				<ul class="mdl-menu mdl-menu--bottom mdl-js-menu mdl-js-ripple-effect" for="cataloge-menu-lower-left">
+					<li class="mdl-menu__item" onclick="playList('ZHxGyZmJRkkdNdHyZbcybnZG');">Song Ca Hay Nhất</li>
+					<li class="mdl-menu__item mdl-menu__item--full-bleed-divider" onclick="playList('LmJmtZmcxEAkdNCTkFJybHZH');">Hải Ngoại Tuyển Chọn</li>
+					<li class="mdl-menu__item" onclick="playList('LHcmtZmsBiLgilRykFctDmkH');">Acoustic Việt Nam</li>
+					<li class="mdl-menu__item mdl-menu__item--full-bleed-divider" onclick="playList('ZGJHTLHaBxRamNkykbcyvmLn');">Acoustic Âu Mỹ</li>
+					<li class="mdl-menu__item" onclick="playList('kGJGtknaBcvsFFSTZFxyvHLH');">Tuyệt Phẩm Không Lời</li>
+					<li class="mdl-menu__item" onclick="playList('ZHJmtZmNBNlASLZyLFJybHLm');">Saxophone - Kenny G</li>
+					<li class="mdl-menu__item" onclick="playList('LHxnTkGsdsSBLWCTZvxtbmLG');">Richard Clayderman</li>
+                </ul>				
+				<a href="#showList" class="mdl-tabs__tab" id="singer-menu-lower-left">Nghệ Sĩ</a>
+				<ul class="mdl-menu mdl-menu--bottom mdl-js-menu mdl-js-ripple-effect" for="singer-menu-lower-left">
+					<li class="mdl-menu__item" onclick="playList('kmxmykGadJzNmmayLFcyFHkm');">Phan Mạnh Quỳnh</li>
+					<li class="mdl-menu__item" onclick="playList('LnJHyLHsVJZmlxaykDJybHkn');">Đàm Vĩnh Hưng</li>
+					<li class="mdl-menu__item mdl-menu__item--full-bleed-divider" onclick="playList('kGxGyZnNdNsQmQbtLDcTFnZH');">Phan Đinh Tùng</li>
+					<li class="mdl-menu__item" onclick="playList('LnJGtkHNdaNlCmxyZvJyFmkn');">Lệ Quyên</li>
+					<li class="mdl-menu__item" onclick="playList('LnJnyZnaVJBxQLByZvcyFHLn');">Miu Lê</li>
+					<li class="mdl-menu__item mdl-menu__item--full-bleed-divider" onclick="playList('kmxmtZmsVJXpuLlykFxyFHkH');">Như Quỳnh</li>
+					<li class="mdl-menu__item" onclick="playList('knxHtkmaVaNhxuZtkbxybHLH');">T-ARA</li>
+					<li class="mdl-menu__item" onclick="playList('ZmxnyZGadaJWBdkyLFcyFmkH');">BIGBANG</li>
+					<li class="mdl-menu__item" onclick="playList('kmJHyZHsBaciRWWyZFxtDnZm');">SNSD</li>
+                </ul>				
+                <a href="#showList" class="mdl-tabs__tab" id="top100-menu-lower-left">Top 100</a>
+				<ul class="mdl-menu mdl-menu--bottom mdl-js-menu mdl-js-ripple-effect" for="top100-menu-lower-left">
+                    <li class="mdl-menu__item" onclick="playList('kHJHyLmNdcRHczgtZbxyFHkn');">Việt Nam</li>
+					<li class="mdl-menu__item" onclick="playList('kHcHyLnNdJRHJWiTLbxtbHLH');">Âu Mỹ</li>
+					<li class="mdl-menu__item" onclick="playList('ZmxHTkGadximiGcyLvJtbHZm');">Châu Á</li>
+					<li class="mdl-menu__item" onclick="playList('knxHykmadcuGRklykbcyFGLm');">Hòa Tấu</li>
+                </ul>				
+                <a href="#showList" class="mdl-tabs__tab" onclick="_playList();"><span id="badgePlayed"><span class="mdl-badge" data-badge="0">Đã Nghe</span></span></a>
+            </div>
+            <div id="showList" class="mdl-tabs__panel is-active">
+                <h5>Hãy lựa chọn thể loại nhạc mà bạn muốn nghe ở trên :)</h5>
+                <span>
+                    Nếu trang web không tự động lấy dữa liệu được,<br>
+                    xin vui lòng thông báo để mình tiến hành cập nhật dữ liệu :D<br>
+                    Thông tin liên hệ: donghdd00342@fpt.edu.vn / 0979.586.328<br>
+                    <br>Lưu ý: Web chạy tốt trên Chrome! dữ liệu cung cấp bởi Mp3.Zing.VN
+                </span>
+            </div>
+            </div>
+            </div>
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
+                <div id="cover" class="panel">
+					<div id="showLyric">
+					</div>
+                    <div id="mp3Player">
+                        <audio controls style="width:100%;opacity: 0.8">
+                        <source id="mySource" src="http://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                        Your browser does not support the audio tag.
+                        </audio>
+                    </div>
+					
+                    <em title="TÙY CHỌN: Repeat (chỉ nghe đi nghe lại 1 bài) / Random (Next ngẫu nhiên) / Auto (tự Play sau khi hết bài)">
+                    <label for="repeat">Repeat [1]? </label><input type="checkbox" id="repeat" onchange="document.getElementById('random').checked = false;document.getElementById('auto').checked = false;"> 
+                    <label for="random">Random? </label><input type="checkbox" id="random"  onchange="document.getElementById('repeat').checked = false;document.getElementById('auto').checked = true;" checked>
+                    <label for="auto">Auto? </label><input type="checkbox" id="auto" checked>
+                    <span id="downloadM" title="Tải bài hát đang nghe về máy tính"><i class="fa fa-cloud-download" aria-hidden="true"></i> Download Music</span>
+                    </em>           
+                </div>
+            </div>
+            </div>
+        </main>
+        </div>
+		<script src="js/common.js"></script>
+        <script src="js/material.min.js"></script>
+        <script src="js/music.js"></script>
+    </body>
+</html>

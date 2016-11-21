@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>VIDEO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/material.blue-pink.min.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="loading">
+            <img src="images/444.jpg">
+            <img src="images/666.jpg">        
+        </div>
+        <div class="donghdd00342-layout-transparent mdl-layout mdl-js-layout" id="abcxyz">
+        <header class="mdl-layout__header mdl-layout__header--transparent">
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">MENU</span>
+            <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="javascript:location.reload();" title="Home"><i class="material-icons">&#xE88A;</i> Home</a>
+            <a class="mdl-navigation__link" href="music.html" title="Đi tới trang MUSIC"><i class="material-icons">&#xE063;</i> Music</a>
+            <a class="mdl-navigation__link" href="video.html" title="Đi tới trang VIDEO"><i class="material-icons">&#xE04A;</i> Video</a>
+            <a class="mdl-navigation__link" href="javascript:alert('Dongh/0979.586.328/donghdd00342@fpt.edu.vn');" title="About"><i class="material-icons">&#xE851;</i> About</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
+            <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+            <div class="mdl-tabs__tab-bar">
+                <a href="#showList" class="mdl-tabs__tab dropmn" id="suggetion-menu-lower-left">Đề xuất cho bạn</a>
+                <ul class="mdl-menu mdl-menu--bottom mdl-js-menu mdl-js-ripple-effect" for="suggetion-menu-lower-left">
+                    <li class="mdl-menu__item" onclick="getData('UCyOfqgtsQaM3S-VZnsYnHjQ');">Relaxing Music</li>
+                    <li class="mdl-menu__item" onclick="getData('UCwfMdhb-f02OsYR8T78aKeQ');">DJ & Hot Girls</li>
+                    <li class="mdl-menu__item" onclick="getData('UCdAFRh3rxx0Q_xxkS2_N2PA');">Jayesslee</li>
+                    <li class="mdl-menu__item" onclick="getData('UCR-ENZ64WL1vB8KU4YzdmTQ');">Tiffany Alvord</li>
+                </ul>
+                <a href="#showList" class="mdl-tabs__tab" id="assignment-menu-lower-left">My Assignment!</a>
+                <ul class="mdl-menu mdl-menu--bottom mdl-js-menu mdl-js-ripple-effect" for="assignment-menu-lower-left">
+                    <li class="mdl-menu__item" onclick="postVideo();changeBG();">Gửi Video lên</li>
+                    <li class="mdl-menu__item mdl-menu__item--full-bleed-divider" onclick="getVideo();changeBG();">Lấy Video Về</li>
+                    <li class="mdl-menu__item" onclick="myData();">Kênh bạn tùy chọn</li>
+                </ul>
+                <a href="#showList" class="mdl-tabs__tab" onclick="_getData();"><span id="badgePlayed"><span class="mdl-badge" data-badge="0">Video Đã Xem</span></span></a>
+            </div>
+            <div id="showList" class="mdl-tabs__panel is-active">
+                <h5>Hãy xem Youtube theo cách của Bạn & Tui :)</h5>
+                <span>
+                    <p>
+                    Thông tin liên hệ: donghdd00342@fpt.edu.vn / 0979.586.328<br>
+                    Lưu ý: Web chạy tốt trên Chrome! dữ liệu cung cấp bởi Youtube.Google.VN
+                    </p>
+                </span>
+            </div>
+            </div>
+            </div>
+            </div>
+        </main>
+        </div>
+        <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">x</span>
+            <div id="myEditContent">                
+            </div>
+        </div>
+        </div>
+        <div id="myVideoPlayerModal" class="modal">
+            <div id="videoPlayer" class="modal-video">
+            </div>
+        </div>
+        <script src="js/jquery-3.1.1.min.js"></script>
+		<script defer src="js/common.js"></script>
+        <script defer src="js/material.min.js"></script>
+        <script defer src="js/video.js"></script>
+        <script src="js/postVideo.js"></script>
+    </body>
+</html>
